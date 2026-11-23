@@ -31,3 +31,7 @@
 [dir=rtl] .sv-vprog i{transform-origin:right}
 @media(max-width:560px){.sv-vc{display:none}.sv-vt b{font-size:16px}}
 @media(prefers-reduced-motion:reduce){.sv-viewer,.sv-vbody img{transition:none}}
+
+/* Arabic-script text must never be letter-spaced: it breaks the joins */
+[dir=rtl] :is(h1,h2,h3,h4,p,span,b,a,button,small,em,label,div){letter-spacing:0!important}
+[dir=rtl] .sv-w,[dir=rtl] .sv-wi{padding-bottom:.12em}
