@@ -7,7 +7,7 @@
 <meta name="description" content="Svala Sherzad — Social Media Specialist, designer and videographer in Erbil.">
 <link rel="icon" href="../assets/mark.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700;800;900&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400;1,6..72,500&family=Noto+Kufi+Arabic:wght@500;700;900&family=Noto+Naskh+Arabic:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700;800;900&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400;1,6..72,500&family=Noto+Kufi+Arabic:wght@500;700;900&family=Noto+Naskh+Arabic:wght@400;600&family=Noto+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/common.css">
 <style>
 /* VOICE: an art magazine special issue — confident, airy, precise.
@@ -17,8 +17,8 @@
    LAYOUT: masthead → kinetic name → zoom cover → stacked features → archive grid → essay about → services accordion → colophon contact. */
 :root{--bg:#f2eee9;--paper:#fbf9f6;--ink:#17080f;--mute:#6b5a62;--line:rgba(23,8,15,.14);--mag:#d81b5a;--plum:#7a0a3e;--grad:linear-gradient(90deg,#7a0a3e,#ff3370);
 --sv-bg:var(--bg);--sv-ink:var(--ink);--sv-mute:var(--mute);--sv-line:var(--line);--sv-acc:var(--mag);--sv-grad:var(--grad);color-scheme:light;
---fd:"Inter Tight","Noto Kufi Arabic",sans-serif;--fs:"Newsreader",Georgia,serif;--fb:"Inter Tight","Noto Naskh Arabic",system-ui,sans-serif}
-[dir=rtl]{--fd:"Noto Kufi Arabic",sans-serif;--fs:"Noto Naskh Arabic",serif;--fb:"Noto Naskh Arabic","Noto Kufi Arabic",serif}
+--fd:"Inter Tight","Noto Kufi Arabic",sans-serif;--fs:"Newsreader",Georgia,serif;--fb:"Inter Tight","Noto Sans Arabic",system-ui,sans-serif}
+[dir=rtl]{--fs:"Newsreader","Noto Naskh Arabic",serif;--fb:"Inter Tight","Noto Sans Arabic",sans-serif}
 *{box-sizing:border-box;min-width:0}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--fb);overflow-x:clip}
 a{color:inherit}img{display:block;max-width:100%}
@@ -34,7 +34,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(242,238,233,.86);backdro
 .mast{display:flex;align-items:center;gap:16px;padding:12px max(4vw,18px);max-width:1400px;margin:auto}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font:900 17px "Inter Tight",sans-serif;letter-spacing:-.02em}
 .brand i{width:34px;height:34px;border-radius:50%;background:var(--grad);display:grid;place-items:center}.brand img{height:20px}
-.issue{font:500 13px "Inter Tight",sans-serif;color:var(--mute);border-inline-start:1px solid var(--line);padding-inline-start:14px}
+.issue{font:500 13px "Inter Tight","Noto Kufi Arabic",sans-serif;color:var(--mute);border-inline-start:1px solid var(--line);padding-inline-start:14px}
 nav{display:flex;margin-inline-start:auto}
 nav a{text-decoration:none;padding:10px 12px;font-size:15px;font-family:var(--fd);font-weight:500;background:linear-gradient(var(--mag),var(--mag)) no-repeat 50% 85%/0 1.5px;transition:background-size .4s}
 nav a:hover{background-size:calc(100% - 24px) 1.5px}

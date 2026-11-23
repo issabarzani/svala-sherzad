@@ -3,7 +3,7 @@
 .sv-w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em;margin-bottom:-.08em}
 .sv-wi,.sv-c{display:inline-block;will-change:transform}
 .sv-lang{display:flex;border:1px solid var(--sv-line);border-radius:999px;padding:3px;gap:2px}
-.sv-lang button{background:none;border:0;min-width:40px;min-height:36px;border-radius:999px;cursor:pointer;color:var(--sv-mute);font:700 13px/1 system-ui,sans-serif;transition:background .3s,color .3s}
+.sv-lang button{background:none;border:0;min-width:40px;min-height:36px;border-radius:999px;cursor:pointer;color:var(--sv-mute);font-weight:700;font-size:13px;line-height:1;font-family:inherit;transition:background .3s,color .3s}
 .sv-lang button[aria-pressed=true]{background:var(--sv-ink);color:var(--sv-bg)}
 .sv-lang button:focus-visible{outline:2px solid var(--sv-acc);outline-offset:2px}
 /* footer */
